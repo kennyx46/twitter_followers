@@ -1,0 +1,12 @@
+
+{% extends "twitterapp/base.html" %}
+
+  {% block content %}
+    <div class="jumbotron">
+      <div class="container">
+        <h3>{{follower.name}}</h3>
+        <p>{{follower.screen_name}}</p>
+        <p>{{follower.location}}</p>
+      </div>
+    </div>
+  {% endblock %}

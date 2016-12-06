@@ -1,0 +1,13 @@
+{% extends "twitterapp/base.html" %}
+
+  {% block content %}
+    <div id="container">
+      <ul class="list-group">
+        {% for follower in followers %}
+        <li class="list-group-item">
+          <a href="/twitter_followers/{{ follower.str_id }}">{{ follower.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endblock %}

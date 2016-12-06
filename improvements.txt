@@ -1,3 +1,4 @@
 1. Store all the secure data into environemnt variables
 2. Implement logout functionality
 3. Store logged in user data in DB
+4. Cover code with tests
